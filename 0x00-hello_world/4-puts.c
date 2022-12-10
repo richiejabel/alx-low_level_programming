@@ -1,5 +1,6 @@
 #include <stdio.h>
 /**
+ *main -Entry Point
  *My first c program
  */
 int main(void)
