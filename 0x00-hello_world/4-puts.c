@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main -Entry Point
- *Return -Always 0
+ *Return: Always 0 (Success)
  *My first c program
  */
 int main(void)
