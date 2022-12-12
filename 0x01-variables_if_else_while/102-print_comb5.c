@@ -1,0 +1,44 @@
+#include <stdio.h>
+
+/**
+ * main -Entry point
+ * Return: Always 0
+ */
+
+int main(void)
+
+{
+	int dig_1;
+	int dig_2;
+
+	for (dig_1 = 0; dig_1 < 100; dig_1++)
+
+	{
+		for (dig_2 = 0; dig_2 < 100; dig_2++)
+
+		{
+			if (dig_1 < dig_2)
+
+			{
+				putchar((dig_1 / 10) + 48);
+				putchar(dig_1 + 48);
+				putchar(' ');
+
+				putchar((dig_2 / 10) + 48);
+				putchar(dig_2 + 48);
+
+				if (dig_1 != 98 || dig_2 != 99)
+
+				{
+					putchar(',');
+					putchar(' ');
+
+				}
+			}
+		}
+	}
+	putchar('\n');
+
+	return (0);
+
+}
