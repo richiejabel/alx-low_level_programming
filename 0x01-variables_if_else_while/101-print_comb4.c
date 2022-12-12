@@ -17,16 +17,18 @@ int main(void)
 		for (fig_2 = fig_1 + 1; fig_2 < 9; fig_2++)
 		{
 			for (fig_3 = fig_2 + 1; fig_3 < 10; fig_3++)
+			{
 				putchar(fig_1 + '0');
-			putchar(fig_2 + '0');
-			putchar(fig_3 + '0');
+				putchar(fig_2 + '0');
+				putchar(fig_3 + '0');
 
 			if (fig_1 == 7 && fig_2 == 8 && fig_3 == 9)
 				continue;
 			putchar(',');
 			putchar(' ');
-			putchar('\n');
+			}
 		}
 	}
+	putchar('\n');
 	return (0);
 }
