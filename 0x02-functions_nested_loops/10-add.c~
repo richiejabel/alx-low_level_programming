@@ -1,0 +1,21 @@
+#include "main.h"
+
+/**
+ * add - adds two numbers
+ * @no_1: first number
+ * @no_2: second number
+ * Return: Always 0
+ */
+
+int add(int, int)
+
+{
+
+	int no_1;
+	int no_2;
+
+	_putchar(((no_1 % 10) + (no_2 % 10)) + '0');
+
+	_putchar('\n');
+
+}
