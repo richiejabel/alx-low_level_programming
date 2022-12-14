@@ -2,6 +2,8 @@
 
 /**
  * times_table - prints the 9 times table starting with 0
+ * num1: variable numbers
+ * num2: holds 9
  */
 
 void times_table(void)
@@ -12,8 +14,8 @@ void times_table(void)
 
 	for (num1 = 0; num1 > 0; num1++)
 
-		__putchar(((num1 % 10) * (num2 % 10)) + '0');
+		_putchar(((num1 % 10) * (num2 % 10)) + '0');
 
-	return (0);
+	return (1);
 
 }
