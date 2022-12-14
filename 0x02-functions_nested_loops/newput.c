@@ -1,7 +1,8 @@
 #include "main.h"
-
+#include <unistd.h>
 /**
  * main - Print _putchar
+ * _putchar - writes the character
  * Return: Always 0
  */
 
@@ -9,7 +10,7 @@ int main(void)
 {
 	_putchar('_');
 	_putchar('p');
-	_putchar('u');
+	_putchar('q');
 	_putchar('t');
 	_putchar('c');
 	_putchar('h');

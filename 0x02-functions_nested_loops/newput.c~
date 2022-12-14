@@ -1,7 +1,8 @@
 #include "main.h"
-
+#include <unistd.h>
 /**
  * main - Print _putchar
+ * _putchar - writes the character
  * Return: Always 0
  */
 
