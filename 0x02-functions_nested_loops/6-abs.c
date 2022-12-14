@@ -15,5 +15,5 @@ int _abs(int num)
 
 	else
 		_putchar(num);
-
+	return (0);
 }
