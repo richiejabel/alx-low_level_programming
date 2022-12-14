@@ -4,6 +4,7 @@
  * times_table - prints the 9 times table starting with 0
  * num1: variable numbers
  * num2: holds 9
+ * Return: Always 1
  */
 
 void times_table(void)
