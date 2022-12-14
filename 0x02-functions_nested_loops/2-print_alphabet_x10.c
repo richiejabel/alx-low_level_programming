@@ -1,6 +1,9 @@
 #include "main.h"
+#include <unistd.h>
+#include <stdio.h>
 
 /**
+ * _putchar - writes characters
  * print_alphabet_x10 - prints  ten times of alphabet
  * Return: Always 0
  */
@@ -21,4 +24,9 @@ void print_alphabet_x10(void)
 		continue;
 	}
 	}
+}
+
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
 }
