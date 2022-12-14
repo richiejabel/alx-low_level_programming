@@ -1,6 +1,4 @@
 #include "main.h"
-#include <unistd.h>
-#include <stdio.h>
 
 /**
  * _putchar - writes characters
@@ -24,9 +22,4 @@ void print_alphabet_x10(void)
 		continue;
 	}
 	}
-}
-
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
 }
