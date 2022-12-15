@@ -2,7 +2,8 @@
 
 /**
  * print_most_numbers - function that prints the numbers, from 0 to 9
- * _putchar - prints the results
+ * _putchar - prints the result
+ * Return: void
  */
 
 void print_most_numbers(void)
