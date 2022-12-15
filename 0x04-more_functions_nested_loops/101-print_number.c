@@ -2,7 +2,7 @@
 /**
  * print_number - prints an intege*
  * @n:.input integer parameter
- * Owned by Bwave ICT/ Bright Daniel
+ * final work
  */
 void print_number(int n)
 {
