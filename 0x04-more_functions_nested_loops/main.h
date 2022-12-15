@@ -1,6 +1,5 @@
-#include <stdio.h>
-#include "ifndef.h"
-#imclude "define.h"
+#ifndef MAIN_H
+#define MAIN_H
 
 int _isupper(int c);
 int _putchar(char);
