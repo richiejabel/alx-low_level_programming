@@ -1,0 +1,11 @@
+#include "main.h"
+
+/**
+ * _isupper -  a function that checks for
+ * upper case
+ * @c: letter to be checked
+ */
+
+int _isupper(int c);
+
+.
