@@ -1,0 +1,19 @@
+#imclude "main.h"
+
+/**
+ * _isdigit - checks for digit
+ * Return: 1 if digit and 0 otherwise
+ * @dig: character being checked
+ */
+
+int _isdigit(int c)
+
+{
+	if (dig >= 0 && dig <= 9)
+
+		return (1);
+
+	else
+		return (0);
+
+}
